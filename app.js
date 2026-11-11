@@ -1,7 +1,7 @@
 const DEFAULT_PRODUCTS = [
   { id: "nova-phone", name: "Nova X5 5G smartphone", description: "A sleek everyday phone for calls, photos and streaming.", category: "Phones", price: 149900, image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80", badge: "POPULAR" },
-  { id: "pulse-earbuds", name: "Pulse wireless earbuds", description: "Clear calls and rich sound in a pocket-sized case.", category: "Audio", price: 18900, image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=700&q=80", badge: "JUST IN" },
-  { id: "orbit-watch", name: "Orbit smart watch", description: "Everyday fitness tracking, notifications and more.", category: "Wearables", price: 32900, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80", badge: "POPULAR" },
+  { id: "pulse-earbuds", name: "Pulse wireless earbuds", description: "Clear calls and rich sound in a pocket-sized case.", category: "Accessories", price: 18900, image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=700&q=80", badge: "JUST IN" },
+  { id: "orbit-watch", name: "Orbit smart watch", description: "Everyday fitness tracking, notifications and more.", category: "Accessories", price: 32900, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80", badge: "POPULAR" },
   { id: "volt-powerbank", name: "Volt 20,000mAh power bank", description: "Extra power for long days away from a wall socket.", category: "Accessories", price: 12500, image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=700&q=80", badge: "" },
   { id: "sonic-speaker", name: "USB-C 20W wall charger", description: "A compact charger for compatible phones and devices.", category: "Accessories", price: 7900, image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80", badge: "NEW" },
   { id: "airbuds-case", name: "Everyday phone case", description: "A protective everyday case with a clean finish.", category: "Accessories", price: 3900, image: "https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=700&q=80", badge: "" },
@@ -10,7 +10,7 @@ const DEFAULT_PRODUCTS = [
 ];
 const STORAGE = { products: "lakshan-electronics-products-v2", settings: "lakshan-electronics-settings-v2", cart: "lakshan-electronics-cart-v2" };
 const DEFAULT_SETTINGS = {
-  name: "Lakshan Creations", mark: "L", tagline: "Everyday tech, made easy.",
+  name: "Lakshan Creations", mark: "L", tagline: "Phones and essentials, made easy.",
   announcement: "Smartphones and everyday phone essentials, all in one place.",
   email: "lakshancreations26@gmail.com", whatsapp: "+94779273876", shippingThreshold: 25000,
   heroEyebrow: "SMARTPHONES. ACCESSORIES. EVERYDAY.",
