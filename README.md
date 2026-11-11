@@ -18,7 +18,7 @@ This project includes a GitHub Actions workflow at `.github/workflows/pages.yml`
 
 The site is static: products, settings, and the bag are stored separately in each visitor's browser. Orders are handed off through WhatsApp/email and require the customer to press **Send**. This deployment does not add a shared inventory, online payment, or automatic order notifications.
 
-The public **Updates** section is part of `index.html`. To announce another store update to everyone, add an update card to that section and push/upload the change to the repository; GitHub Actions will redeploy the site.
+The public **Updates** section and the always-visible update notice are in `index.html`. To announce another store update to everyone, change the notice and add an update card, then push/upload the changes to the repository; GitHub Actions will redeploy the site.
 
 ## Customize the shop
 
