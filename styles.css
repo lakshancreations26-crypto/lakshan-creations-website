@@ -47,6 +47,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .button-dark:hover { background: var(--accent-dark); }
 .hero-note { margin-top: 27px; color: var(--muted); font-size: 10px; letter-spacing: .03em; }
 .tiny-spark { margin-right: 7px; color: var(--accent); font-size: 14px; vertical-align: -1px; }
+.updates-shortcut { display: inline-block; margin-top: 15px; }
 .hero-art { position: relative; justify-self: end; width: min(100%, 430px); height: 365px; background: #e9ded1; }
 .hero-photo, .story-photo { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(42,32,23,.06), rgba(42,32,23,.02)), url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1100&q=85") center 48% / cover; }
 .hero-sticker { position: absolute; left: -39px; bottom: 35px; width: 102px; height: 102px; padding: 20px 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 50%; background: var(--accent); color: white; transform: rotate(-9deg); font-family: var(--serif); font-size: 14px; line-height: 1.05; }
@@ -58,8 +59,15 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .trust-strip { min-height: 65px; padding: 12px 12.5%; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: #626159; font-size: 10px; }
 .trust-strip i { margin-right: 8px; color: var(--accent); font-size: 12px; font-style: normal; }
 .shop-section { padding: 88px 9.2% 94px; }
+.updates-section { padding: 66px 12.5% 72px; background: var(--white); }
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 30px; }
 .section-heading h2, .story-copy h2, .newsletter h2 { margin: 11px 0 0; font-family: var(--serif); font-size: clamp(32px, 3.8vw, 45px); font-weight: 500; letter-spacing: -.035em; line-height: 1.2; }
+.update-card { display: grid; grid-template-columns: 90px 1fr; gap: 25px; max-width: 760px; padding: 25px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.update-date { display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--accent-dark); }
+.update-date span:first-child { font-family: var(--serif); font-size: 38px; line-height: 1; }
+.update-date span:last-child, .update-label { margin-top: 8px; font-size: 9px; font-weight: 700; letter-spacing: .14em; }
+.update-content h3 { margin: 8px 0; font-family: var(--serif); font-size: 24px; font-weight: 500; }
+.update-content p { max-width: 560px; margin-bottom: 15px; color: var(--muted); font-size: 12px; line-height: 1.8; }
 .text-link { padding-bottom: 5px; border-bottom: 1px solid var(--accent); color: var(--ink); font-size: 10px; }
 .text-link span { padding-left: 9px; color: var(--accent); }
 .shop-tools { min-height: 48px; margin-bottom: 17px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
@@ -193,6 +201,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
   .hero-side-note { display: none; }
   .trust-strip { padding-right: 8%; padding-left: 8%; }
   .shop-section { padding-right: 6%; padding-left: 6%; }
+  .updates-section { padding-right: 7%; padding-left: 7%; }
   .product-grid { grid-template-columns: repeat(min(3, var(--product-columns)), minmax(0, 1fr)); }
   .story-section { padding-right: 9%; padding-left: 9%; gap: 7%; }
   .site-footer { padding-right: 6%; padding-left: 6%; grid-template-columns: 1fr 1fr; }
@@ -217,6 +226,13 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
   .trust-strip { min-height: 57px; padding: 10px 7%; justify-content: center; gap: 19px; flex-wrap: wrap; font-size: 9px; }
   .trust-strip > span:nth-child(2), .trust-strip .trust-extra { display: none; }
   .shop-section { padding: 59px 5% 63px; }
+  .updates-section { padding: 45px 7% 50px; }
+  .updates-section .section-heading { margin-bottom: 18px; }
+  .update-card { grid-template-columns: 56px 1fr; gap: 15px; padding: 20px 0; }
+  .update-date span:first-child { font-size: 31px; }
+  .update-date span:last-child, .update-label { font-size: 8px; }
+  .update-content h3 { font-size: 20px; }
+  .update-content p { font-size: 12px; }
   .section-heading { margin-bottom: 19px; }
   .section-heading h2 { font-size: 31px; }
   .section-heading .eyebrow { font-size: 8px; }
