@@ -481,6 +481,9 @@ $("#checkout-open").addEventListener("click", () => {
   $("#checkout-dialog").showModal();
 });
 $("#checkout-close").addEventListener("click", () => $("#checkout-dialog").close());
+const adDialog = $("#ad-dialog");
+$("#ad-close").addEventListener("click", () => adDialog.close());
+$("#ad-continue").addEventListener("click", () => adDialog.close());
 $("#checkout-form").addEventListener("submit", (event) => {
   event.preventDefault();
   const entries = cartProducts();
@@ -537,3 +540,4 @@ $("#year").textContent = new Date().getFullYear();
 applySettings();
 renderProducts();
 renderCart();
+adDialog.showModal();

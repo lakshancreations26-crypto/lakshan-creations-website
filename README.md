@@ -20,6 +20,8 @@ The site is static: the displayed phone products and prices are sample listings 
 
 The public **Updates** section and the always-visible update notice are in `index.html`. To announce another store update to everyone, change the notice and add an update card, then push/upload the changes to the repository; GitHub Actions will redeploy the site.
 
+On every page load, the site shows an advertisement placeholder before visitors can use the shop. Visitors can close it immediately or select **Close ad & continue to shop**. The placeholder does not play an ad; replace its content in `index.html` with your own ad when you have one.
+
 ## Customize the shop
 
 Select **Customize** in the top navigation. You can edit the shop name, logo letter, announcement, delivery minimum, contact email, hero and story copy, image URLs, benefits, newsletter text, colours, heading style, and desktop product layout. Save the changes to store them in this browser. The public website uses the dark phone-shop defaults; customization changes made in a visitor's browser are not shared with other visitors.
