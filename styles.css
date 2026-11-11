@@ -310,8 +310,12 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
   box-shadow: 0 28px 80px #0007;
   isolation: isolate;
 }
-.hero-photo {
+.hero-photo, .story-photo {
   background-position: 24% center;
+  background-size: cover;
+}
+.story-photo { background-position: center; }
+.hero-photo {
   transition: transform .6s cubic-bezier(.2, .7, .2, 1);
 }
 .hero-art:hover .hero-photo { transform: scale(1.025); }
