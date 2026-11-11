@@ -1,34 +1,34 @@
 const DEFAULT_PRODUCTS = [
-  { id: "nova-phone", name: "Nova X5 smartphone", description: "A bright display and all-day battery for work and play.", category: "Phones", price: 149900, image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80", badge: "BESTSELLER" },
+  { id: "nova-phone", name: "Nova X5 5G smartphone", description: "A sleek everyday phone for calls, photos and streaming.", category: "Phones", price: 149900, image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=80", badge: "POPULAR" },
   { id: "pulse-earbuds", name: "Pulse wireless earbuds", description: "Clear calls and rich sound in a pocket-sized case.", category: "Audio", price: 18900, image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=700&q=80", badge: "JUST IN" },
   { id: "orbit-watch", name: "Orbit smart watch", description: "Everyday fitness tracking, notifications and more.", category: "Wearables", price: 32900, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80", badge: "POPULAR" },
   { id: "volt-powerbank", name: "Volt 20,000mAh power bank", description: "Extra power for long days away from a wall socket.", category: "Accessories", price: 12500, image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=700&q=80", badge: "" },
-  { id: "sonic-speaker", name: "Sonic portable speaker", description: "Take your playlists outside with you.", category: "Audio", price: 24500, image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=80", badge: "NEW" },
+  { id: "sonic-speaker", name: "USB-C 20W wall charger", description: "A compact charger for compatible phones and devices.", category: "Accessories", price: 7900, image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80", badge: "NEW" },
   { id: "airbuds-case", name: "Everyday phone case", description: "A protective everyday case with a clean finish.", category: "Accessories", price: 3900, image: "https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=700&q=80", badge: "" },
-  { id: "focus-laptop", name: "Focus 14-inch laptop", description: "A lightweight everyday laptop for study and work.", category: "Computers", price: 289000, image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80", badge: "STAFF PICK" },
-  { id: "charge-kit", name: "Fast-charge adapter & cable", description: "A compact USB-C fast-charging kit for compatible devices.", category: "Accessories", price: 7900, image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80", badge: "" }
+  { id: "focus-laptop", name: "HD phone screen protector", description: "A clear screen protector for compatible phone models.", category: "Accessories", price: 4500, image: "https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=700&q=80", badge: "ESSENTIAL" },
+  { id: "charge-kit", name: "USB-C fast-charge cable", description: "A handy charging cable for compatible phones and accessories.", category: "Accessories", price: 3900, image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80", badge: "" }
 ];
-const STORAGE = { products: "lakshan-electronics-products-v1", settings: "lakshan-electronics-settings-v1", cart: "lakshan-electronics-cart-v1" };
+const STORAGE = { products: "lakshan-electronics-products-v2", settings: "lakshan-electronics-settings-v2", cart: "lakshan-electronics-cart-v2" };
 const DEFAULT_SETTINGS = {
   name: "Lakshan Creations", mark: "L", tagline: "Everyday tech, made easy.",
-  announcement: "Find your next favourite tech upgrade.",
+  announcement: "Smartphones and everyday phone essentials, all in one place.",
   email: "lakshancreations26@gmail.com", whatsapp: "+94779273876", shippingThreshold: 25000,
-  heroEyebrow: "SMART TECH. BETTER EVERYDAYS.",
-  heroFirst: "A little more", heroHighlight: "connected", heroLast: "every day.",
-  heroSubtitle: "Discover the electronics and accessories that make work, play and everything between a little better.",
-  heroButton: "Explore electronics", heroNote: "Good tech. Picked for you.",
-  heroImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1100&q=85",
-  heroCaption: "FIND YOUR NEXT FAVOURITE", stickerTop: "better", stickerBottom: "everyday",
-  shopEyebrow: "A FEW GOOD UPGRADES", shopTitle: "Find your next", shopHighlight: "favourite.",
-  benefit1: "Trusted tech", benefit2: "Picked with care", benefit3: "Islandwide delivery", benefit4: "Here to help",
-  storyEyebrow: "WHY LAKSHAN CREATIONS",
-  storyTitle: "The right tech makes", storyHighlight: "every day easier.",
-  storyBody: "We bring together everyday electronics and useful accessories that make staying connected, getting things done and enjoying your downtime easier. Find your next upgrade right here.",
-  storyLink: "Explore the collection", storyImage: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85",
-  storyBadge: "TECH FOR EVERY DAY", newsletterEyebrow: "STAY IN THE LOOP",
-  newsletterTitle: "New arrivals &", newsletterHighlight: "good tech finds.",
-  footerBottom: "Tech for every day.", color: "#377d7a", background: "#f7f5f0", ink: "#292a25",
-  font: "serif", columns: "4"
+  heroEyebrow: "SMARTPHONES. ACCESSORIES. EVERYDAY.",
+  heroFirst: "Your next", heroHighlight: "phone", heroLast: "starts here.",
+  heroSubtitle: "Explore smartphones, chargers, cases and everyday essentials to keep you connected.",
+  heroButton: "Shop phones", heroNote: "Find your next favourite.",
+  heroImage: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1100&q=85",
+  heroCaption: "PHONES MADE FOR EVERY DAY", stickerTop: "stay", stickerBottom: "connected",
+  shopEyebrow: "PHONES & ESSENTIALS", shopTitle: "Find your next", shopHighlight: "favourite.",
+  benefit1: "Phones for every day", benefit2: "Useful accessories", benefit3: "Islandwide delivery", benefit4: "Here to help",
+  storyEyebrow: "YOUR PHONE SHOP",
+  storyTitle: "Stay connected,", storyHighlight: "your way.",
+  storyBody: "Discover smartphones and the everyday essentials that go with them. Browse phone accessories, choose what suits you and send your order details to us on WhatsApp.",
+  storyLink: "Browse phones", storyImage: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=900&q=85",
+  storyBadge: "PHONES & ACCESSORIES", newsletterEyebrow: "STAY IN THE LOOP",
+  newsletterTitle: "New phones &", newsletterHighlight: "useful finds.",
+  footerBottom: "Phones and essentials.", color: "#42dfc0", background: "#0b0e12", ink: "#f2f5f7",
+  font: "sans", columns: "4"
 };
 const state = {
   products: readStorage(STORAGE.products, DEFAULT_PRODUCTS),

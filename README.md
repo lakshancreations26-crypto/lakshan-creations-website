@@ -1,6 +1,6 @@
-# Lakshan Creations electronics shop
+# Lakshan Creations phone shop
 
-A responsive electronics storefront built with plain HTML, CSS and JavaScript. No build tools or packages are required for the local demo.
+A responsive, dark-mode phone and accessories storefront built with plain HTML, CSS and JavaScript. No build tools or packages are required.
 
 ## Open the local demo
 
@@ -22,7 +22,7 @@ The public **Updates** section and the always-visible update notice are in `inde
 
 ## Customize the shop
 
-Select **Customize** in the top navigation. You can edit the shop name, logo letter, announcement, delivery minimum, contact email, hero and story copy, image URLs, benefits, newsletter text, colours, heading style, and desktop product layout. Save the changes to store them in this browser.
+Select **Customize** in the top navigation. You can edit the shop name, logo letter, announcement, delivery minimum, contact email, hero and story copy, image URLs, benefits, newsletter text, colours, heading style, and desktop product layout. Save the changes to store them in this browser. The public website uses the dark phone-shop defaults; customization changes made in a visitor's browser are not shared with other visitors.
 
 The inventory editor lets you add, edit and remove products, including product names, descriptions, categories, LKR prices, image URLs and badges. Products, settings and the shopping bag use this browser's local storage; they are not shared with other devices. Use **Restore default shop** to restore the starter content.
 
