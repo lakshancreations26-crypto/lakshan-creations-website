@@ -16,7 +16,7 @@ This project includes a GitHub Actions workflow at `.github/workflows/pages.yml`
 4. Open **Actions**, select **Deploy static site to GitHub Pages**, and run the workflow (or push another change to `main`).
 5. When the workflow succeeds, open **Settings → Pages** to find the public URL. For a normal repository, it is usually `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
 
-The site is static: products, settings, and the bag are stored separately in each visitor's browser. Orders are handed off through WhatsApp/email and require the customer to press **Send**. This deployment does not add a shared inventory, online payment, or automatic order notifications.
+The site is static: the displayed phone products and prices are sample listings and should be replaced with the shop's real inventory; products, settings, and the bag are stored separately in each visitor's browser. Orders are handed off through WhatsApp/email and require the customer to press **Send**. This deployment does not add a shared inventory, online payment, or automatic order notifications.
 
 The public **Updates** section and the always-visible update notice are in `index.html`. To announce another store update to everyone, change the notice and add an update card, then push/upload the changes to the repository; GitHub Actions will redeploy the site.
 

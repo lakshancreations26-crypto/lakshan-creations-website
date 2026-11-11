@@ -76,6 +76,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
 .update-content p { max-width: 560px; margin-bottom: 15px; color: var(--muted); font-size: 12px; line-height: 1.8; }
 .text-link { padding-bottom: 5px; border-bottom: 1px solid var(--accent); color: var(--ink); font-size: 10px; }
 .text-link span { padding-left: 9px; color: var(--accent); }
+.catalog-note { margin: -14px 0 18px; color: var(--muted); font-size: 11px; line-height: 1.6; }
 .shop-tools { min-height: 48px; margin-bottom: 17px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .category-list { display: flex; flex-wrap: wrap; gap: 7px; }
 .category-button { padding: 8px 14px; border: 1px solid transparent; border-radius: 30px; background: transparent; color: var(--muted); cursor: pointer; font-size: 10px; }
@@ -247,6 +248,7 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
   .section-heading h2 { font-size: 31px; }
   .section-heading .eyebrow { font-size: 8px; }
   .section-heading > .text-link { font-size: 9px; }
+  .catalog-note { margin-top: -10px; font-size: 11px; }
   .shop-tools { align-items: flex-start; flex-direction: column-reverse; gap: 10px; margin-bottom: 13px; }
   .search-box { width: 100%; }
   .category-list { flex-wrap: nowrap; width: 100%; overflow-x: auto; padding-bottom: 3px; }
