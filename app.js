@@ -43,7 +43,10 @@ const grid = $("#product-grid");
 const overlay = $("#overlay");
 const cartPanel = $("#cart-panel");
 const customizePanel = $("#customize-panel");
+const customizeTrigger = $("#customize-open");
 let toastTimer;
+
+customizeTrigger.hidden = new URLSearchParams(window.location.search).get("customize") !== "1";
 
 function readStorage(key, fallback) {
   try {
@@ -481,9 +484,6 @@ $("#checkout-open").addEventListener("click", () => {
   $("#checkout-dialog").showModal();
 });
 $("#checkout-close").addEventListener("click", () => $("#checkout-dialog").close());
-const adDialog = $("#ad-dialog");
-$("#ad-close").addEventListener("click", () => adDialog.close());
-$("#ad-continue").addEventListener("click", () => adDialog.close());
 $("#checkout-form").addEventListener("submit", (event) => {
   event.preventDefault();
   const entries = cartProducts();
@@ -540,4 +540,3 @@ $("#year").textContent = new Date().getFullYear();
 applySettings();
 renderProducts();
 renderCart();
-adDialog.showModal();
