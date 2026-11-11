@@ -8,7 +8,7 @@ const DEFAULT_PRODUCTS = [
   { id: "focus-laptop", name: "HD phone screen protector", description: "A clear screen protector for compatible phone models.", category: "Accessories", price: 4500, image: "https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&fit=crop&w=700&q=80", badge: "ESSENTIAL" },
   { id: "charge-kit", name: "USB-C fast-charge cable", description: "A handy charging cable for compatible phones and accessories.", category: "Accessories", price: 3900, image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80", badge: "" }
 ];
-const STORAGE = { products: "lakshan-electronics-products-v2", settings: "lakshan-electronics-settings-v2", cart: "lakshan-electronics-cart-v2" };
+const STORAGE = { products: "lakshan-electronics-products-v3", settings: "lakshan-electronics-settings-v3", cart: "lakshan-electronics-cart-v3" };
 const DEFAULT_SETTINGS = {
   name: "Lakshan Creations", mark: "L", tagline: "Phones and essentials, made easy.",
   announcement: "Smartphones and everyday phone essentials, all in one place.",
